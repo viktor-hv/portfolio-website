@@ -1,0 +1,32 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-height: 25vh;
+}
+.contact-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  height: 60%;
+  width: 100%;
+  margin-bottom: 7%;
+}
+.c-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.contact-icon {
+  width: 35%;
+  border-radius: 10%;
+}
+.contact-icon:hover {
+  width: 40%;
+  box-shadow: -4px 6px 15px 5px black;
+}
+.h3-contact {
+  margin-bottom: 6vh;
+}

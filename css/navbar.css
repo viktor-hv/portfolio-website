@@ -1,0 +1,88 @@
+.navbar-container {
+  min-height: 4vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0%;
+  z-index: 1;
+}
+.thebar {
+  display: flex;
+  flex-direction: row;
+  height: 5vh;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  color: whitesmoke;
+  background-color: #181818;
+}
+.thebar div {
+  height: 100%;
+  width: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo:hover {
+  color: #181818;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+.burger-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20%;
+  align-items: center;
+}
+.burger-menu div {
+  height: 10%;
+  width: 75%;
+  background-color: whitesmoke;
+  border-radius: 4px;
+}
+.burger-menu:hover {
+  color: #181818;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+.burger-menu:hover > div {
+  background-color: #181818;
+}
+.thelist {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+  background-color: #181818;
+  visibility: hidden;
+}
+.thelist div:hover {
+  color: #181818;
+  background-color: whitesmoke;
+}
+.thelist div {
+  height: 4vh;
+  cursor: pointer;
+}
+
+a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: inherit;
+  text-decoration: none;
+}
+#about,
+#projects,
+#contact {
+  padding-top: 6vh;
+  margin: 0;
+}

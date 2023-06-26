@@ -1,0 +1,24 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  font-size: medium;
+  line-height: 1.5;
+  text-align: center;
+  width: 100%;
+}
+.about-container p {
+  margin: 0 5% 0 5%;
+}
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 5% 10% 5%;
+  height: 8vh;
+}
+.skills img {
+  max-height: 100%;
+}
+.h3-skills {
+  margin-top: 15%;
+}

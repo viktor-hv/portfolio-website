@@ -1,0 +1,191 @@
+@media (orientation: landscape) {
+  .hero-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3% 0 3% 0;
+  }
+  .hero-container img {
+    /* max-width: 45%; */
+    max-height: 100vh;
+  }
+  .skills {
+    height: 15vh;
+  }
+  .projects-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 4%;
+  }
+  .p-box {
+    min-height: 200px;
+    max-width: 45%;
+  }
+  .contact-icon {
+    width: 25%;
+  }
+  .thebar {
+    height: 7vh;
+  }
+  .thelist div {
+    height: 7vh;
+  }
+}
+
+/* TABLETI */
+
+@media (min-width: 768px) and (min-height: 768px) {
+  .logo-image {
+    max-width: 55%;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  .projects-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 4%;
+  }
+  .p-box {
+    min-height: 300px;
+    height: 40vh;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  p,
+  h4 {
+    font-size: 18px;
+  }
+  .p-about {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1024px) and (max-height: 720px) {
+  .logo-image {
+    max-width: 40%;
+  }
+  h1 {
+    font-size: 52px;
+  }
+}
+
+@media (min-width: 800px) {
+  .p-box {
+    min-height: 300px;
+    height: 30vh;
+  }
+}
+
+/* LAPTOPI I PC */
+
+@media (min-width: 1366px) and (min-height: 684px) {
+  .burger-menu div {
+    width: 100%;
+  }
+  .burger-menu {
+    padding: 0 0.5% 0 0.5%;
+  }
+  .logo {
+    padding: 0 0.5% 0 0.5%;
+    font-size: 2em;
+  }
+  .hero-container {
+    flex-direction: column;
+  }
+  .logo-image {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    max-width: 65%;
+  }
+  h1 {
+    font-size: 3.5em;
+    position: absolute;
+    top: 8%;
+    left: 7%;
+  }
+  .h3-projects,
+  .h3-skills,
+  .h3-about,
+  .h3-contact {
+    font-size: 1.7em;
+  }
+  .h3-skills {
+    margin: 5% 0 4% 0;
+  }
+  .h3-about {
+    margin-top: 4%;
+  }
+
+  .about-container p {
+    margin: 0 9% 0 9%;
+  }
+  .h3-projects {
+    margin: 7% 0 6% 0;
+  }
+  .projects-box {
+    gap: 5%;
+  }
+  .p-box {
+    width: 35%;
+  }
+  .skills {
+    margin: 0 5% 3% 5%;
+    justify-content: center;
+    gap: 19%;
+  }
+  .contact-links {
+    gap: 0%;
+  }
+  .contact-icon {
+    width: 25%;
+    border-radius: 10%;
+  }
+  .c-link {
+    width: 20%;
+  }
+  .contact-icon:hover {
+    width: 30%;
+    box-shadow: -4px 6px 15px 5px black;
+  }
+  .h3-contact {
+    margin-bottom: 5%;
+  }
+}
+@media (min-width: 1600px) {
+  h1 {
+    top: 13%;
+    left: 8%;
+  }
+  .p-about {
+    font-size: 1.35em;
+  }
+  .about-container p {
+    margin: 0 13% 0 13%;
+  }
+  .thelist a {
+    font-size: 1.4em;
+  }
+}
+@media (min-width: 1900px) {
+  h1 {
+    font-size: 4em;
+  }
+  .h3-projects,
+  .h3-skills,
+  .h3-about,
+  .h3-contact {
+    font-size: 2.2em;
+  }
+}
